@@ -75,6 +75,14 @@ const lowerCaseWord;
 const upperCaseWord;
 
 
+// Getting the index of substrings
+const basicSentence = "The quick brown fox jumped over the lazy dog";
+
+// 8) Use the "indexOf" function to retrieve the index of the word
+//    "the" and store it in the following variable for later printout.
+const theIndex;
+
+
 // Printouts
 //
 // Note: Do not modify the code below
@@ -87,3 +95,4 @@ console.log("Pulled \"over\" from whole string:", overWord);
 console.log("Sentence split into words:", splitString);
 console.log("Lower-case Word:", lowerCaseWord);
 console.log("Upper-case Word:", upperCaseWord);
+console.log("Index of \"the\":", theIndex);
