@@ -30,8 +30,8 @@ const sentence = "The quick brown fox jumped over the lazy dog.";
 //    them in their respective variables below for later printout.
 //
 //    Note: Remember, indexes start at 0, not 1.
-const seventeenthChar;
-const fortySecondChar;
+let seventeenthChar;
+let fortySecondChar;
 
 
 // Getting a String's Length
@@ -40,7 +40,7 @@ const longWord = "supercalifragilisticexpialidocious";
 // 4) Use the "length" property to retrieve the previous string's
 //    number of characters and store it in the following variable
 //    for later printout.
-const longWordLength;
+let longWordLength;
 
 
 // Getting a Substring out of a String
@@ -51,7 +51,7 @@ const wholeString = "The quick brown fox jumped over the lazy dog.";
 //    in the following variable.
 //
 //    Note: Remember, indexes start at 0, not 1.
-const overWord;
+let overWord;
 
 
 // Splitting a string into multiple strings
@@ -62,7 +62,7 @@ const unsplitString = "The quick brown fox jumped over the lazy dog";
 //    Then store the result in the following variable for later printout.
 //
 //    Note: What character separates each word?
-const splitString;
+let splitString;
 
 
 // Mutating character cases
@@ -71,8 +71,8 @@ const unmutatedWord = "Seattle";
 // 7) Use the "toLowerCase" and "toUpperCase" functions on the previous
 //    string to get lower-case and upper-case versions of the word, and
 //    store them in the following variables for later printout.
-const lowerCaseWord;
-const upperCaseWord;
+let lowerCaseWord;
+let upperCaseWord;
 
 
 // Getting the index of substrings
@@ -80,7 +80,7 @@ const basicSentence = "The quick brown fox jumped over the lazy dog";
 
 // 8) Use the "indexOf" function to retrieve the index of the word
 //    "the" and store it in the following variable for later printout.
-const theIndex;
+let theIndex;
 
 
 // Printouts
